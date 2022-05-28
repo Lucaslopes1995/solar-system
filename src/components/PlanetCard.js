@@ -1,5 +1,6 @@
-import React from 'react';
+// eslint-disable-next-line
 import PropTypes from 'prop-types';
+import React from 'react';
 
 class PlanetCard extends React.Component {
   render() {

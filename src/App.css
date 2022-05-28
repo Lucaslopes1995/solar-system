@@ -1,3 +1,274 @@
-.App {
+body {
+  background: url('./images/background.jpeg');
+  font-family: Epilogue;
   text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+
+  /* identical to box height, or 150px */
+  color: white;
+  font-family: 'Epilogue';
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 600;
+  height: 150px;
+  line-height: 150%;
+  position: relative;
+  width: 692px;
+
+}
+
+#divs-todos-planetas {
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1231px;
+
+
+}
+
+#planetas-div {
+  align-items: center;
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
+  box-sizing: border-box;
+
+  /* Rectangle 46 */
+  display: flex;
+  flex-direction: row;
+  height: 98px;
+  justify-content: center;
+  margin: 0 auto;
+  mix-blend-mode: hard-light;
+  position: relative;
+  width: 1140px;
+
+
+}
+
+#planetas-div h2 {
+
+  /* identical to box height, or 75px */
+  color: white;
+  font-family: 'Epilogue';
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  height: 75px;
+  line-height: 150%;
+
+  /* Planetas */
+  width: 218px;
+
+
+}
+
+
+#divs-planetas {
+  align-items: center;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 300px;
+  justify-content: center;
+  width: 300px;
+
+
+}
+
+#divs-planetas p {
+  align-self: center;
+  border-radius: nullpx;
+  color: white;
+  height: 24px;
+  left: 115px;
+  top: 668px;
+  width: 71px;
+
+
+}
+
+#Mercúrio {
+  border-radius: 0;
+  height: 31px;
+  left: 130px;
+  top: 566.000244140625px;
+  width: 41px;
+
+
+}
+
+#Vênus {
+  border-radius: 0;
+  height: 76px;
+  left: 228px;
+  top: 543px;
+  width: 102px;
+
+}
+
+#Terra {
+  border-radius: 0;
+  height: 79px;
+  left: 369px;
+  top: 542px;
+  width: 106px;
+
+}
+
+#Marte {
+  border-radius: 0;
+  height: 50px;
+  left: 514px;
+  top: 556.000244140625px;
+  width: 66px;
+
+}
+
+#Júpiter {
+  border-radius: 0;
+  height: 204px;
+  left: 580px;
+  top: 464.000244140625px;
+  width: 272px;
+
+}
+
+#Saturno {
+  border-radius: 0;
+  height: 210.89933437470816px;
+  left: 785px;
+  top: 493.3525390625px;
+  width: 282.41118930302247px;
+
+}
+
+#Urano {
+  border-radius: 0;
+  height: 109px;
+  left: 1068px;
+  top: 522px;
+  width: 144px;
+
+}
+
+#Netuno {
+  border-radius: 0;
+  height: 107px;
+  left: 1202px;
+  top: 522px;
+  width: 144px;
+
+}
+
+#div-missions {
+  align-items: center;
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
+  box-sizing: border-box;
+
+  /* Rectangle 45 */
+  display: flex;
+  height: 99px;
+  justify-content: center;
+  margin: 0 auto;
+  mix-blend-mode: hard-light;
+  width: 1140px;
+
+}
+
+#div-missions h2 {
+
+  /* identical to box height, or 75px */
+  color: white;
+  font-family: 'Epilogue';
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  height: 75px;
+  line-height: 150%;
+  width: 205px;
+}
+
+#mission-div {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 41px auto 60px;
+  width: 1200px;
+}
+
+#mission-card {
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
+  box-sizing: border-box;
+  height: 281px;
+  margin: 20px;
+  mix-blend-mode: hard-light;
+  overflow: overlay;
+  width: 354px;
+}
+
+#div-p-mission-card {
+
+  /* or 36px */
+  color: white;
+
+  /* 1960 Estados Unidos Lua */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Epilogue';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: 187px;
+  justify-content: center;
+  line-height: 120%;
+  width: 226px;
+}
+
+#div-p-mission-card p {
+  margin: 0;
+}
+
+#mission-card-p {
+
+  /* or 42px */
+  color: white;
+  font-family: 'Epilogue';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 20px;
+  text-align: left;
+
+}
+
+h3 {
+  border: 1px solid white;
+  height: 0;
+  left: 557px;
+  top: 1360px;
+  width: 354px;
+}
+
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
 }
